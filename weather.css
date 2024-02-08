@@ -1,0 +1,155 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    background-color:hsl(0, 0%, 85%);
+}
+#form{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#inputCity{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 60%);
+}
+#btn{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 3px;
+    padding: 0.3rem 0.5rem;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 60%);
+}
+
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    background: linear-gradient(175deg, rgba(251, 166, 10, 0.8),hsla(189, 100%, 52%, 0.8));
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.city{
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+}
+.temprature{
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 0;
+}
+.humidity{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.6rem;
+}
+.desc{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+.emoji{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+.error{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    margin-top: 1rem;
+}
+
+/* Responsive Style */
+
+@media screen and (max-width: 600px) {
+    #btn{
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+        background-color: dodgerblue;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 5px 5px 5px hsl(0, 0%, 60%);
+    }
+
+    #inputCity{
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-align: center;
+        max-width: 120px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px hsl(0, 0%, 60%);
+    }
+
+    .card{
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(175deg, rgba(251, 166, 10, 0.8),hsla(189, 100%, 52%, 0.8));
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+     }
+}
+
+@media screen and (min-width:1100px) {
+    #btn{
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: white;
+        background-color: dodgerblue;
+        border: none;
+        padding: 0.3rem 0.5rem ;
+        border-radius: 3px;
+        box-shadow: 5px 5px 5px hsl(0, 0%, 60%);
+    }
+
+    #inputCity{
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+        max-width: 200px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 0px;
+        box-shadow: 5px 5px 5px hsl(0, 0%, 60%);
+    }
+
+    .card{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(175deg, rgba(251, 166, 10, 0.8),hsla(189, 100%, 52%, 0.8));
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+     }
+}
